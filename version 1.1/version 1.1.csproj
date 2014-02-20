@@ -41,12 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Enemies.cs" />
+    <Compile Include="Classes\Fish.cs" />
+    <Compile Include="Classes\Friends.cs" />
+    <Compile Include="Classes\Heroes.cs" />
+    <Compile Include="Classes\MovingObject.cs" />
+    <Compile Include="Interfaces\IAtack.cs" />
+    <Compile Include="Interfaces\IDefence.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\SmartPenguin.cs" />
+    <Compile Include="Classes\StaticObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
