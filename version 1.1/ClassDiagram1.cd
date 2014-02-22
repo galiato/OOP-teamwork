@@ -10,7 +10,7 @@
   <Class Name="version_1._1.Enemies" Collapsed="true">
     <Position X="0.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAQAAgAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>Classes\Enemies.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -32,7 +32,7 @@
   <Class Name="version_1._1.GameObject" Collapsed="true">
     <Position X="3" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAQCABAEAgAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -99,39 +99,11 @@
       <FileName>Classes\WindowsSettings.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.CommandScreenCoordinates" Collapsed="true">
-    <Position X="0.75" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CommandScreenCoordinates.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="version_1._1.MainScreenCoordinates" Collapsed="true">
-    <Position X="5.25" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MainScreenCoordinates.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="version_1._1.Program" Collapsed="true">
     <Position X="11.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="version_1._1.QuestionScreenCoordinates" Collapsed="true">
-    <Position X="3" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>QuestionScreenCoordinates.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="version_1._1.ScreenCoordinates" Collapsed="true">
-    <Position X="3" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAwAEAAAAAAAEAAoAAAAAAAAAAAAA=</HashCode>
-      <FileName>Classes\ScreenCoordinates.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.Classes.GameItems" Collapsed="true">
@@ -144,7 +116,7 @@
   <Class Name="version_1._1.SmartPenguin" Collapsed="true">
     <Position X="0.5" Y="8.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>ACAAAAAAAAAAAAAAAAAIAAAIAACAAAAAABAAAAAEAAA=</HashCode>
       <FileName>Classes\SmartPenguin.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
