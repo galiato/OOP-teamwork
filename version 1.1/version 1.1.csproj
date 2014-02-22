@@ -62,7 +62,7 @@
     <Compile Include="Classes\Friends.cs" />
     <Compile Include="Classes\Heroes.cs" />
     <Compile Include="Classes\MovingObject.cs" />
-    <Compile Include="Classes\Player.cs" />
+    <Compile Include="CommandScreenCoordinates.cs" />
     <Compile Include="Classes\RightInfoArea.cs" />
     <Compile Include="Classes\Scores.cs" />
     <Compile Include="Classes\StartGame.cs" />
@@ -71,10 +71,13 @@
     <Compile Include="Classes\WindowsSettings.cs" />
     <Compile Include="Interfaces\IAtack.cs" />
     <Compile Include="Interfaces\IDefence.cs" />
+    <Compile Include="MainScreenCoordinates.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\SmartPenguin.cs" />
     <Compile Include="Classes\StaticObject.cs" />
+    <Compile Include="QuestionScreenCoordinates.cs" />
+    <Compile Include="ScreenCoordinates.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -50,11 +50,32 @@
       <FileName>Classes\Fish.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.SmartPenguin" Collapsed="true">
-    <Position X="4.5" Y="2.5" Width="1.5" />
+  <Class Name="version_1._1.ScreenCoordinates" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAwAEAAAAAAAEAAoAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScreenCoordinates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="version_1._1.MainScreenCoordinates" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Classes\SmartPenguin.cs</FileName>
+      <FileName>MainScreenCoordinates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="version_1._1.QuestionScreenCoordinates" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuestionScreenCoordinates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="version_1._1.CommandScreenCoordinates" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommandScreenCoordinates.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="version_1._1.IAtack" Collapsed="true">
