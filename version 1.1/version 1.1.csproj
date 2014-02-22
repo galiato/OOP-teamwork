@@ -64,8 +64,9 @@
     <Compile Include="Classes\Heroes.cs" />
     <Compile Include="Classes\MovingObject.cs" />
     <Compile Include="Classes\Player.cs" />
+    <Compile Include="Classes\Questions.cs" />
     <Compile Include="CommandScreenCoordinates.cs" />
-    <Compile Include="Classes\RightInfoArea.cs" />
+    <Compile Include="Classes\InfoAreas.cs" />
     <Compile Include="Classes\Scores.cs" />
     <Compile Include="Classes\StartGame.cs" />
     <Compile Include="Classes\StartMenu.cs" />
