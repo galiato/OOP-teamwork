@@ -7,5 +7,8 @@ namespace version_1._1
 {
     public abstract class Friends : MovingObject
     {
+        public Friends(string name, ScreenCoordinates coordinates)
+            : base(name)
+        { }
     }
 }

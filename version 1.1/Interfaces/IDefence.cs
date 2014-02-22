@@ -7,5 +7,6 @@ namespace version_1._1
 {
     public interface IDefence
     {
+        int DefencePoints { get; }
     }
 }

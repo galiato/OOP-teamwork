@@ -1,152 +1,174 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="version_1._1.DrawItem" Collapsed="true">
-    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Position X="7.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\DrawItem.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.Enemies" Collapsed="true">
-    <Position X="0.5" Y="6.25" Width="1.5" />
+    <Position X="0.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>Classes\Enemies.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="version_1._1.Fish" Collapsed="true">
-    <Position X="5" Y="6.25" Width="1.5" />
+    <Position X="5.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Fish.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.Friends" Collapsed="true">
-    <Position X="2.75" Y="6.25" Width="1.5" />
+    <Position X="3" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Friends.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.Object" Collapsed="true">
-    <Position X="2.75" Y="3.5" Width="1.5" />
+  <Class Name="version_1._1.GameObject" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Classes\Heroes.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.MovingObject" Collapsed="true">
-    <Position X="1.5" Y="4.75" Width="1.5" />
+    <Position X="1.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\MovingObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="version_1._1.Player" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAQAQAAAEEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Player.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.RightInfoArea" Collapsed="true">
-    <Position X="11" Y="0.5" Width="1.5" />
+    <Position X="7.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
       <FileName>Classes\RightInfoArea.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.Scores" Collapsed="true">
-    <Position X="7.5" Y="1.5" Width="1.5" />
+    <Position X="9.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAQAAAAAAQAAQAAAAAAAAAAAAAACAAAAQBEAAAAAAA=</HashCode>
       <FileName>Classes\Scores.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.StartGame" Collapsed="true">
-    <Position X="11" Y="1.5" Width="1.5" />
+  <Class Name="version_1._1.SmartPenguin" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAIAAABAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SmartPenguin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="version_1._1.StartGame" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAASAAAAAAAAAAACAAAABAAIAAABAAAAA=</HashCode>
       <FileName>Classes\StartGame.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.StartMenu" Collapsed="true">
-    <Position X="7.5" Y="2.5" Width="1.5" />
+    <Position X="7.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>Classes\StartMenu.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.StaticObject" Collapsed="true">
-    <Position X="5" Y="4.75" Width="1.5" />
+    <Position X="5.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\StaticObject.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.Terrain" Collapsed="true">
-    <Position X="9.25" Y="2.5" Width="1.5" />
+    <Position X="9.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Terrain.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.WindowsSettings" Collapsed="true">
-    <Position X="11" Y="2.5" Width="1.5" />
+    <Position X="11.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ApAAgAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAABABAAA=</HashCode>
       <FileName>Classes\WindowsSettings.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.CommandScreenCoordinates" Collapsed="true">
-    <Position X="2.75" Y="1.75" Width="1.5" />
+    <Position X="0.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CommandScreenCoordinates.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.MainScreenCoordinates" Collapsed="true">
-    <Position X="0.5" Y="1.75" Width="1.5" />
+    <Position X="5.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MainScreenCoordinates.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.Program" Collapsed="true">
-    <Position X="9.25" Y="0.5" Width="1.5" />
+    <Position X="11.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.QuestionScreenCoordinates" Collapsed="true">
-    <Position X="5" Y="1.75" Width="1.5" />
+    <Position X="3" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>QuestionScreenCoordinates.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.ScreenCoordinates" Collapsed="true">
-    <Position X="2.75" Y="0.5" Width="1.5" />
+    <Position X="3" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAwAEAAAAAAAEAAoAAAAAAAAAAAAA=</HashCode>
-      <FileName>ScreenCoordinates.cs</FileName>
+      <FileName>Classes\ScreenCoordinates.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.SmartPenguin" Collapsed="true">
-    <Position X="9.25" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAEAABACAAAAAAAAAA=</HashCode>
-      <FileName>Classes\SmartPenguin.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Interface Name="version_1._1.IAtack" Collapsed="true">
-    <Position X="7.5" Y="3.75" Width="1.5" />
+  <Class Name="version_1._1.Classes.GameItems" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\GameItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="version_1._1.IAtack" Collapsed="true">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>Interfaces\IAtack.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="version_1._1.IDefence" Collapsed="true">
-    <Position X="9.25" Y="3.75" Width="1.5" />
+    <Position X="9.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IDefence.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="version_1._1.IMove" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMove.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

@@ -61,7 +61,7 @@
     <Compile Include="Classes\Fish.cs" />
     <Compile Include="Classes\Friends.cs" />
     <Compile Include="Classes\GameItems.cs" />
-    <Compile Include="Classes\Heroes.cs" />
+    <Compile Include="Classes\GameObject.cs" />
     <Compile Include="Classes\MovingObject.cs" />
     <Compile Include="Classes\Player.cs" />
     <Compile Include="CommandScreenCoordinates.cs" />
@@ -71,6 +71,7 @@
     <Compile Include="Classes\StartMenu.cs" />
     <Compile Include="Classes\Terrain.cs" />
     <Compile Include="Classes\WindowsSettings.cs" />
+    <Compile Include="Interfaces\IMove.cs" />
     <Compile Include="Interfaces\IAtack.cs" />
     <Compile Include="Interfaces\IDefence.cs" />
     <Compile Include="MainScreenCoordinates.cs" />
@@ -79,7 +80,7 @@
     <Compile Include="Classes\SmartPenguin.cs" />
     <Compile Include="Classes\StaticObject.cs" />
     <Compile Include="QuestionScreenCoordinates.cs" />
-    <Compile Include="ScreenCoordinates.cs" />
+    <Compile Include="Classes\ScreenCoordinates.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

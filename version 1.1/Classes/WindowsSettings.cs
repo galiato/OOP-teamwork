@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace version_1._1
 {
-    class WindowsSettings
+    public static class WindowsSettings
     {
         public const int WIN_HEIGHT = 50;
         public const int WIN_WIDTH = 70;

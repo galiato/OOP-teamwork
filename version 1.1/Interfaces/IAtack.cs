@@ -7,5 +7,6 @@ namespace version_1._1
 {
     public interface IAtack
     {
+        int AttackPoints { get; }
     }
 }
