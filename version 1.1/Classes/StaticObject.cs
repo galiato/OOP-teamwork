@@ -7,11 +7,8 @@ namespace version_1._1
 {
     public abstract class StaticObject : GameObject
     {
-        public StaticObject()
-        { }
-
-        public StaticObject(string name, ScreenCoordinates coordinates)
-            : base(name, coordinates)
+        public StaticObject(string name, int row, int coll)
+            : base(name, row, coll)
         { }
     }
 }

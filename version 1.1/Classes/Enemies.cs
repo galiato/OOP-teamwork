@@ -37,8 +37,8 @@ namespace version_1._1
         //    }
         //}
 
-        public Enemies(string name, ScreenCoordinates coordinates)
-            : base(name, coordinates)
+        public Enemies(string name, int row, int coll)
+            : base(name, row, coll)
         { }
 
         public int AttackPoints

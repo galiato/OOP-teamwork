@@ -33,16 +33,17 @@
 
                 InfoAreas.Initialize();
 
-                SmartPenguin penguin = new SmartPenguin("pesho", new ScreenCoordinates(10, 10));
+                SmartPenguin penguin = new SmartPenguin("pesho", 36, 1);
+                penguin.Render();
+                penguin.Print();
                 //penguin.ShowPosition();
-                Enemies enemy = new Enemies("pesho", new ScreenCoordinates(30, 30));
+                Enemies enemy = new Enemies("pesho", 30, 30);
                 //enemy.ShowPosition();
 
                 //// CODE FOR TIME starts //
                 //timeSpan1 = diagnoze.Subtract(stopWatch1.Elapsed);
                 //secondsToGameOver = String.Format("{0}", timeSpan1.Seconds.ToString("00"));
-                Thread.Sleep(100);
-                
+                //Thread.Sleep(100);   
             }
         }
     }

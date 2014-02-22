@@ -7,8 +7,8 @@
     {
         public static void Initialize()
         {
-            Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Clear();
+            //Console.BackgroundColor = ConsoleColor.DarkBlue;
+            //Console.Clear();
 
             
         }

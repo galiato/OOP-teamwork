@@ -7,7 +7,8 @@ namespace version_1._1
 {
     public class Fish : StaticObject
     {
-        public Fish(ScreenCoordinates coordinates)
+        public Fish(string name, int row, int coll)
+            : base(name, row, coll)
         { }
     }
 }

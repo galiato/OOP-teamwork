@@ -75,6 +75,7 @@
     <Compile Include="Interfaces\IMove.cs" />
     <Compile Include="Interfaces\IAtack.cs" />
     <Compile Include="Interfaces\IDefence.cs" />
+    <Compile Include="Interfaces\IRender.cs" />
     <Compile Include="MainScreenCoordinates.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
