@@ -7,5 +7,8 @@ namespace version_1._1
 {
     public class QuestionScreenCoordinates : ScreenCoordinates
     {
+        public QuestionScreenCoordinates(int row, int col)
+            :base (row, col)
+        { }
     }
 }
