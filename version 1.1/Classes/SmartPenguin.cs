@@ -11,37 +11,28 @@ namespace version_1._1
     //}
 
     //author dimitermandov
-    public class SmartPenguin : Player, IDefence
+    public class SmartPenguin : GameItems, IDefence
     {
         public static readonly string[] PLAYER_SYMBOL = new string[] {
             "    00>>  ",
             "    ||  ",
-            "   //=\\ ",
-            "  //= =\\ ",
+            "   //=\\\\ ",
+            "  //= =\\\\ ",
             "<<       >>"
          };
 
         
 
         private int playerPositionX; 
-        private int playerPositionY; 
-        public SmartPenguin (int playerPositionX, int playerPositionY)
+        private int playerPositionY;
+
+        public SmartPenguin(int playerPositionX, int playerPositionY)
+            : base(playerPositionX, playerPositionY)
         {
             this.playerPositionX = playerPositionX;
             this.playerPositionY = playerPositionY;
         }
 
-        public int PlayerPositionX
-        {
-            get { return playerPositionX; }
-            set { this.playerPositionX = value; }
-        }
-
-        public int PlayerPositionY
-        {
-            get { return playerPositionY; }
-            set { this.playerPositionY = value; }
-        }
         public override void ShowPosition()
         {
             int row = 0;
