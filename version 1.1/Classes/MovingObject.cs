@@ -5,7 +5,7 @@ using System.Text;
 
 namespace version_1._1
 {
-    public abstract class MovingObject : Object
+    public abstract class MovingObject : GameObject
     {
     }
 }
