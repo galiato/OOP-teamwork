@@ -14,19 +14,42 @@ namespace version_1._1
     public class SmartPenguin : Player, IDefence
     {
         public static readonly string[] PLAYER_SYMBOL = new string[] {
-            "   ( )   ",
-            "    =    ",
-            "  //=\\ ",
-            "|// = \\|",
-            "|@@=-=@@|"
+            "    00>>  ",
+            "    ||  ",
+            "   //=\\ ",
+            "  //= =\\ ",
+            "<<       >>"
         };
 
-        public const int PLAYER_HEIGHT = 5;
-        public const int PLAYER_WIDTH = 9;
+        
 
+        private int playerPositionX; 
+        private int playerPositionY; 
+        public SmartPenguin (int playerPositionX, int playerPositionY)
+        {
+            this.playerPositionX = playerPositionX;
+            this.playerPositionY = playerPositionY;
+        }
+
+        public int PlayerPositionX
+        {
+            get { return playerPositionX; }
+            set { this.playerPositionX = value; }
+        }
+
+        public int PlayerPositionY
+        {
+            get { return playerPositionY; }
+            set { this.playerPositionY = value; }
+        }
         public override void ShowPosition()
         {
-            throw new NotImplementedException();
+            int row = 0;
+            foreach (string playerSymbolRow in PLAYER_SYMBOL)
+            {
+                DrawItem.Draw(this.playerPositionX, playerPositionY + row, playerSymbolRow);
+                row++;
+            }
         }
     }
 

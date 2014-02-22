@@ -6,6 +6,9 @@
 
     class StartGame
     {
+        public const int PLAYER_HEIGHT = 5;
+        public const int PLAYER_WIDTH = 9;
+
         public static string secondsToGameOver;
         public static Stopwatch stopWatch1 = new Stopwatch();
         const int INTERVAL = 100;
@@ -29,6 +32,9 @@
                 Terrain.Initialize();
 
                 RightInfoArea.Initialize();
+
+                SmartPenguin penguin = new SmartPenguin(WindowsSettings.GAME_AREA_WIDTH / 2 - 3, WindowsSettings.GAME_AREA_HEIGHT - PLAYER_HEIGHT - 4);
+                penguin.ShowPosition();
 
                 //// CODE FOR TIME starts //
                 //timeSpan1 = diagnoze.Subtract(stopWatch1.Elapsed);
