@@ -5,19 +5,29 @@ using System.Text;
 
 namespace version_1._1
 {
-    public class SmartPenguin : MovingObject, IDefence
-    {
+    //public class SmartPenguin : MovingObject, IDefence
+    //{
         
-    }
+    //}
 
     //author dimitermandov
-    //public class SmartPenguin //: Player
-    //{
+    public class SmartPenguin : Player, IDefence
+    {
+        public static readonly string[] PLAYER_SYMBOL = new string[] {
+            "   ( )   ",
+            "    =    ",
+            "  //=\\ ",
+            "|// = \\|",
+            "|@@=-=@@|"
+        };
 
-    //    public override void ShowPosition()
-    //    {
-    //        throw new NotImplementedException();
-    //    }
-    //}
+        public const int PLAYER_HEIGHT = 5;
+        public const int PLAYER_WIDTH = 9;
+
+        public override void ShowPosition()
+        {
+            throw new NotImplementedException();
+        }
+    }
 
 }
