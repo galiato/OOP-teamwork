@@ -9,7 +9,7 @@ namespace version_1._1
     public static class WindowsSettings
     {
         public const int WIN_HEIGHT = 50;
-        public const int WIN_WIDTH = 70;
+        public const int WIN_WIDTH = 170;
         public const int INFO_AREA_WIDTH = WIN_WIDTH - 20;
         public const int INFO_AREA_HEIGHT = WIN_HEIGHT;
         public const int GAME_AREA_WIDTH = WIN_WIDTH - 20;

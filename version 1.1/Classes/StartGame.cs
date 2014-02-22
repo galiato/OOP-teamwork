@@ -31,10 +31,12 @@
             {
                 Terrain.Initialize();
 
-                RightInfoArea.Initialize();
+                InfoAreas.Initialize();
 
-                SmartPenguin penguin = new SmartPenguin("Pesho", new ScreenCoordinates(10, 10));
-                //penguin.ShowPosition();
+                SmartPenguin penguin = new SmartPenguin(WindowsSettings.GAME_AREA_WIDTH / 2 - 3, WindowsSettings.GAME_AREA_HEIGHT - PLAYER_HEIGHT- 10);
+                penguin.ShowPosition();
+                Enemies enemy = new Enemies(WindowsSettings.GAME_AREA_WIDTH / 2 - 40, WindowsSettings.GAME_AREA_HEIGHT - PLAYER_HEIGHT - 45);
+                enemy.ShowPosition();
 
                 //// CODE FOR TIME starts //
                 //timeSpan1 = diagnoze.Subtract(stopWatch1.Elapsed);

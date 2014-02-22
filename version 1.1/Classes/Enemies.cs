@@ -5,17 +5,35 @@ using System.Text;
 
 namespace version_1._1
 {
-    public abstract class Enemies : MovingObject, IAtack
+    public class Enemies : GameItems, IAtack
     {
-        public Enemies(string name, ScreenCoordinates coordinates)
-            : base(name)
-        { }
+        public static readonly string[] PLAYER_SYMBOL = new string[] {
+            "     00  ",
+            "     ||  ",
+            "   <<==>> ",
+            "   //= =\\\\ ",
+            "<< >>   <<  >>"
+         };
 
-        public int AttackPoints
+        
+
+        private int playerPositionX; 
+        private int playerPositionY;
+
+        public Enemies(int playerPositionX, int playerPositionY)
+            : base(playerPositionX, playerPositionY)
         {
-            get
+            this.playerPositionX = playerPositionX;
+            this.playerPositionY = playerPositionY;
+        }
+
+        public override void ShowPosition()
+        {
+            int row = 0;
+            foreach (string playerSymbolRow in PLAYER_SYMBOL)
             {
-                return 100;
+                DrawItem.Draw(this.playerPositionX, playerPositionY + row, playerSymbolRow);
+                row++;
             }
         }
     }

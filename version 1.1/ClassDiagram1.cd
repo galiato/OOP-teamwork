@@ -10,7 +10,7 @@
   <Class Name="version_1._1.Enemies" Collapsed="true">
     <Position X="0.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAgAA=</HashCode>
       <FileName>Classes\Enemies.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -39,10 +39,9 @@
   <Class Name="version_1._1.MovingObject" Collapsed="true">
     <Position X="1.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\MovingObject.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="version_1._1.Player" Collapsed="true">
     <Position X="0.5" Y="7.5" Width="1.5" />
@@ -51,11 +50,11 @@
       <FileName>Classes\Player.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.RightInfoArea" Collapsed="true">
+  <Class Name="version_1._1.InfoAreas" Collapsed="true">
     <Position X="7.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
-      <FileName>Classes\RightInfoArea.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Classes\InfoAreas.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="version_1._1.Scores" Collapsed="true">
@@ -68,7 +67,7 @@
   <Class Name="version_1._1.SmartPenguin" Collapsed="true">
     <Position X="0.5" Y="8.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAgAA=</HashCode>
       <FileName>Classes\SmartPenguin.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
