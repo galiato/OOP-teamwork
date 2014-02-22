@@ -62,14 +62,17 @@
     <Compile Include="Classes\Friends.cs" />
     <Compile Include="Classes\Heroes.cs" />
     <Compile Include="Classes\MovingObject.cs" />
+<<<<<<< HEAD
     <Compile Include="Classes\Player.cs" />
-    <Compile Include="CommandScreenCoordinates.cs" />
     <Compile Include="Classes\RightInfoArea.cs" />
     <Compile Include="Classes\Scores.cs" />
     <Compile Include="Classes\StartGame.cs" />
     <Compile Include="Classes\StartMenu.cs" />
     <Compile Include="Classes\Terrain.cs" />
     <Compile Include="Classes\WindowsSettings.cs" />
+=======
+    <Compile Include="CommandScreenCoordinates.cs" />
+>>>>>>> 15c38135b04606fd1907735fb7ce8595e66b5177
     <Compile Include="Interfaces\IAtack.cs" />
     <Compile Include="Interfaces\IDefence.cs" />
     <Compile Include="MainScreenCoordinates.cs" />

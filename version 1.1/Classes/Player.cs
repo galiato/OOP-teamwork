@@ -12,7 +12,7 @@ namespace version_1._1
         public static int playerLife = LIFE;
 
         private int name;
-                
+
 
         public int Name
         {
@@ -27,8 +27,5 @@ namespace version_1._1
 
         public abstract void ShowPosition();
         
-
-
-
     }
 }
