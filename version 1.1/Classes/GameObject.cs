@@ -11,7 +11,7 @@ namespace version_1._1
 
         public GameObject() { }
 
-        public GameObject(string name)
+        public GameObject(string name, ScreenCoordinates coordinates)
         {
             this.Name = name;
         }

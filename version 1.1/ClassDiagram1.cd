@@ -10,7 +10,7 @@
   <Class Name="version_1._1.Enemies" Collapsed="true">
     <Position X="0.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAgAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAQAAgAA=</HashCode>
       <FileName>Classes\Enemies.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -63,14 +63,6 @@
       <HashCode>AAAQAAAAAAQAAQAAAAAAAAAAAAAACAAAAQBEAAAAAAA=</HashCode>
       <FileName>Classes\Scores.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="version_1._1.SmartPenguin" Collapsed="true">
-    <Position X="0.5" Y="8.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAgAA=</HashCode>
-      <FileName>Classes\SmartPenguin.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="version_1._1.StartGame" Collapsed="true">
     <Position X="11.25" Y="1.5" Width="1.5" />
@@ -148,6 +140,14 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\GameItems.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="version_1._1.SmartPenguin" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SmartPenguin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="version_1._1.IAtack" Collapsed="true">
     <Position X="7.75" Y="3.75" Width="1.5" />

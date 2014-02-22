@@ -5,43 +5,16 @@ using System.Text;
 
 namespace version_1._1
 {
-    //public class SmartPenguin : MovingObject, IDefence
-    //{
-        
-    //}
-
-    //author dimitermandov
-    public class SmartPenguin : GameItems, IDefence
+    public class SmartPenguin : MovingObject, IDefence
     {
-        public static readonly string[] PLAYER_SYMBOL = new string[] {
-            "    00>>  ",
-            "    ||  ",
-            "   //=\\\\ ",
-            "  //= =\\\\ ",
-            "<<       >>"
-         };
 
-        
+        public SmartPenguin(string name, ScreenCoordinates coordinates)
+            : base(name, coordinates)
+        { }
 
-        private int playerPositionX; 
-        private int playerPositionY;
-
-        public SmartPenguin(int playerPositionX, int playerPositionY)
-            : base(playerPositionX, playerPositionY)
+        public int DefencePoints
         {
-            this.playerPositionX = playerPositionX;
-            this.playerPositionY = playerPositionY;
-        }
-
-        public override void ShowPosition()
-        {
-            int row = 0;
-            foreach (string playerSymbolRow in PLAYER_SYMBOL)
-            {
-                DrawItem.Draw(this.playerPositionX, playerPositionY + row, playerSymbolRow);
-                row++;
-            }
+            get { throw new NotImplementedException(); }
         }
     }
-
 }

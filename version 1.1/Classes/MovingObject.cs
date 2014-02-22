@@ -5,7 +5,11 @@ using System.Text;
 
 namespace version_1._1
 {
-    public abstract class MovingObject 
+    public abstract class MovingObject : GameObject
     {
+
+        public MovingObject(string name, ScreenCoordinates coordinates)
+            : base(name, coordinates)
+        { }
     }
 }
