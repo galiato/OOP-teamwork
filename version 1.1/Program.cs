@@ -8,10 +8,16 @@ namespace version_1._1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // ala bala
-            //ala bala portokala
+            // WINDOW Settings
+            WindowsSettings.Initialize();
+
+            // INITIAL Start Menu
+            StartMenu.Initialize();
+
+            // INITIAL THE GAME
+            StartGame.Initialize();
         }
     }
 }

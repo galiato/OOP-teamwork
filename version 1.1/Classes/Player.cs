@@ -8,7 +8,11 @@ namespace version_1._1
 {
     public abstract class Player
     {
+        private const int LIFE = 200;
+        public static int playerLife = LIFE;
+
         private int name;
+                
 
         public int Name
         {

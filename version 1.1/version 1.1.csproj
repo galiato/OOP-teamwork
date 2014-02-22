@@ -56,12 +56,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\DrawItem.cs" />
     <Compile Include="Classes\Enemies.cs" />
     <Compile Include="Classes\Fish.cs" />
     <Compile Include="Classes\Friends.cs" />
     <Compile Include="Classes\Heroes.cs" />
     <Compile Include="Classes\MovingObject.cs" />
     <Compile Include="Classes\Player.cs" />
+    <Compile Include="Classes\RightInfoArea.cs" />
+    <Compile Include="Classes\Scores.cs" />
+    <Compile Include="Classes\StartGame.cs" />
+    <Compile Include="Classes\StartMenu.cs" />
+    <Compile Include="Classes\Terrain.cs" />
+    <Compile Include="Classes\WindowsSettings.cs" />
     <Compile Include="Interfaces\IAtack.cs" />
     <Compile Include="Interfaces\IDefence.cs" />
     <Compile Include="Program.cs" />
@@ -89,6 +96,11 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExternalFiles\logo.txt" />
+    <Content Include="ExternalFiles\scoreboard.txt" />
+    <Content Include="ExternalFiles\startmenu.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
