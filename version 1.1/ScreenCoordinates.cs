@@ -5,7 +5,7 @@ using System.Text;
 
 namespace version_1._1
 {
-    public abstract class ScreenCoordinates
+    public class ScreenCoordinates
     {
         public int Row { get; set; }
         public int Col { get; set; }
