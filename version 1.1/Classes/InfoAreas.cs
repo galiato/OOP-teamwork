@@ -27,9 +27,9 @@
 
             for (int col = 0; col < WindowsSettings.INFO_AREA_WIDTH; col++)
             {
-                DrawItem.Draw(col, WindowsSettings.INFO_AREA_HEIGHT-10,  SYMBOL_QUESTION_AREA);
+                DrawItem.Draw(col, WindowsSettings.INFO_AREA_HEIGHT-3,  SYMBOL_QUESTION_AREA);
             }
-            DrawItem.Draw(1,  WindowsSettings.INFO_AREA_HEIGHT-9, "Please answer the question: " + Questions.question);
+            DrawItem.Draw(1,  WindowsSettings.INFO_AREA_HEIGHT-2, "Please answer the question: " + Questions.question);
         }
     }
 }
