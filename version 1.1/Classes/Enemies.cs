@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace version_1._1
+namespace TheSmartPenguin
 {
     public class Enemies : MovingObject, IAtack
     {
@@ -15,7 +15,7 @@ namespace version_1._1
         //    "<< >>   <<  >>"
         // };
 
-        
+
 
         //private int playerPositionX; 
         //private int playerPositionY;
@@ -37,8 +37,8 @@ namespace version_1._1
         //    }
         //}
 
-        public Enemies(string name, int row, int coll)
-            : base(name, row, coll)
+        public Enemies(string name, Coords position, Coords direction, char[,] shape)
+            : base(name, position, direction, shape)
         { }
 
         public int AttackPoints

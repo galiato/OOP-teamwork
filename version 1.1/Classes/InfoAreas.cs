@@ -1,4 +1,4 @@
-﻿namespace version_1._1
+﻿namespace TheSmartPenguin
 {
     using System;
 
@@ -22,7 +22,7 @@
             DrawItem.Draw(WindowsSettings.INFO_AREA_WIDTH + 2, 21, "Scores: " + Scores.currentScores);
             // DrawItem.Draw(WindowsSettings.INFO_AREA_WIDTH + 2, 26, "Level: 1");                    
 
-            DrawItem.Draw(WindowsSettings.INFO_AREA_WIDTH + 2, 20, "Life Points: " + Player.playerLife);
+         //   DrawItem.Draw(WindowsSettings.INFO_AREA_WIDTH + 2, 20, "Life Points: " + IPlayer.playerLife);
             
 
             for (int col = 0; col < WindowsSettings.INFO_AREA_WIDTH; col++)

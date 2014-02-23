@@ -1,4 +1,4 @@
-﻿namespace version_1._1
+﻿namespace TheSmartPenguin
 {
     using System;
     using System.Drawing;

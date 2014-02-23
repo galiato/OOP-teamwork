@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace version_1._1.Interfaces
+namespace TheSmartPenguin.Interfaces
 {
     public interface IRender
     {

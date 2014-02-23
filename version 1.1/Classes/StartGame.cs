@@ -1,4 +1,4 @@
-﻿namespace version_1._1
+﻿namespace TheSmartPenguin
 {
     using System;
     using System.Diagnostics;
@@ -32,12 +32,23 @@
                 Terrain.Initialize();
 
                 InfoAreas.Initialize();
-
-                SmartPenguin penguin = new SmartPenguin("pesho", 36, 1);
+               char[,] penguinShape= new[,] { 
+            {' ',' ',' ',' ',' ','_',' ',' ',' ',' ',' '},
+            {' ',' ',' ','.','\'',' ','\'','.',' ',' ',' '},
+            {' ',' ',' ','|','\'','V','\'','|',' ',' ',' '},
+            {' ',' ',' ','/','.','-','.','\\',' ',' ',' '},
+            {' ',' ',' ','/','/',' ','\\','\\',' ',' ',' '},
+            {' ','.','\'',',','|',' ','|',',','\'','.',' '},
+            {' ','|','/','|','|',' ','|','|','\\','|',' '},
+            {' ',' ','\\','\\','_','_','/','/',' ',' ',' '},
+            {' ',' ','/',' ','\\',' ','/',' ','\\',' ',' '},
+            {' ',' ','\'','`','\'',' ','\'','`','\'',' ',' '}
+            };
+                SmartPenguin penguin = new SmartPenguin("pesho", new Coords(5,5), new Coords(1,1),penguinShape);
                 penguin.Render();
                 penguin.Print();
                 //penguin.ShowPosition();
-                Enemies enemy = new Enemies("pesho", 30, 30);
+                Enemies enemy = new Enemies("pesho",new Coords(30,30),new Coords(1,1),new[,] {{'#'}});
                 //enemy.ShowPosition();
 
                 //// CODE FOR TIME starts //

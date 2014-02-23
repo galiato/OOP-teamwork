@@ -1,145 +1,152 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="version_1._1.DrawItem" Collapsed="true">
-    <Position X="7.75" Y="0.5" Width="1.5" />
+  <Class Name="TheSmartPenguin.DrawItem">
+    <Position X="9" Y="0.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\DrawItem.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.Enemies" Collapsed="true">
-    <Position X="0.75" Y="6.25" Width="1.5" />
+  <Class Name="TheSmartPenguin.Enemies" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>Classes\Enemies.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
+    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="version_1._1.Fish" Collapsed="true">
-    <Position X="5.25" Y="6.25" Width="1.5" />
+  <Class Name="TheSmartPenguin.Fish">
+    <Position X="7.25" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Fish.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.Friends" Collapsed="true">
-    <Position X="3" Y="6.25" Width="1.5" />
+  <Class Name="TheSmartPenguin.Friends">
+    <Position X="5" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Friends.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.GameObject" Collapsed="true">
-    <Position X="3" Y="3.5" Width="1.5" />
+  <Class Name="TheSmartPenguin.GameObject">
+    <Position X="3.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAEAQCABAEAgAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAAAAAAgAAAAMAQCABAEAgAAAAAAAAAABAA=</HashCode>
       <FileName>Classes\GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.MovingObject" Collapsed="true">
-    <Position X="1.75" Y="4.75" Width="1.5" />
+  <Class Name="TheSmartPenguin.MovingObject">
+    <Position X="1.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\MovingObject.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.Player" Collapsed="true">
-    <Position X="0.5" Y="7.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAAAAQAQAAAEEAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Classes\Player.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="version_1._1.InfoAreas" Collapsed="true">
-    <Position X="7.75" Y="1.5" Width="1.5" />
+  <Class Name="TheSmartPenguin.InfoAreas">
+    <Position X="11.5" Y="0.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAAgAAA=</HashCode>
       <FileName>Classes\InfoAreas.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.Scores" Collapsed="true">
-    <Position X="9.5" Y="1.5" Width="1.5" />
+  <Class Name="TheSmartPenguin.Scores">
+    <Position X="16" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAQAAAAAAQAAQAAAAAAAAAAAAAACAAAAQBEAAAAAAA=</HashCode>
       <FileName>Classes\Scores.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.StartGame" Collapsed="true">
-    <Position X="11.25" Y="1.5" Width="1.5" />
+  <Class Name="TheSmartPenguin.StartGame">
+    <Position X="14" Y="1.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAASAAAAAAAAAAACAAAABAAIAAABAAAAA=</HashCode>
       <FileName>Classes\StartGame.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.StartMenu" Collapsed="true">
-    <Position X="7.75" Y="2.5" Width="1.5" />
+  <Class Name="TheSmartPenguin.StartMenu">
+    <Position X="16" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>Classes\StartMenu.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.StaticObject" Collapsed="true">
-    <Position X="5.25" Y="4.75" Width="1.5" />
+  <Class Name="TheSmartPenguin.StaticObject">
+    <Position X="6.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\StaticObject.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.Terrain" Collapsed="true">
-    <Position X="9.5" Y="2.5" Width="1.5" />
+  <Class Name="TheSmartPenguin.Terrain">
+    <Position X="9.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Terrain.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.WindowsSettings" Collapsed="true">
-    <Position X="11.25" Y="2.5" Width="1.5" />
+  <Class Name="TheSmartPenguin.WindowsSettings">
+    <Position X="11.5" Y="3.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>ApAAgAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAABABAAA=</HashCode>
       <FileName>Classes\WindowsSettings.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.Program" Collapsed="true">
-    <Position X="11.25" Y="0.5" Width="1.5" />
+  <Class Name="TheSmartPenguin.Program">
+    <Position X="16" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="version_1._1.Classes.GameItems" Collapsed="true">
-    <Position X="9.5" Y="0.5" Width="1.5" />
+  <Class Name="TheSmartPenguin.SmartPenguin">
+    <Position X="0.5" Y="7.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Classes\GameItems.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="version_1._1.SmartPenguin" Collapsed="true">
-    <Position X="0.5" Y="8.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>ACAAAAAAAAAAAAAAAAAIAAAIAACAAAAAABAAAAAEAAA=</HashCode>
+      <HashCode>AAgABAAAAAAAAAAAAAAAAAAIAAAAAAAAKBGEEAIEAAQ=</HashCode>
       <FileName>Classes\SmartPenguin.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="version_1._1.IAtack" Collapsed="true">
-    <Position X="7.75" Y="3.75" Width="1.5" />
+  <Class Name="TheSmartPenguin.Questions">
+    <Position X="9.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Questions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TheSmartPenguin.Coords">
+    <Position X="10.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAEAAAAAAAAAAAAAAABgAAAAYAA=</HashCode>
+      <FileName>Coords.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="TheSmartPenguin.IAtack">
+    <Position X="10.25" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>Interfaces\IAtack.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="version_1._1.IDefence" Collapsed="true">
-    <Position X="9.5" Y="3.75" Width="1.5" />
+  <Interface Name="TheSmartPenguin.IDefense">
+    <Position X="12.25" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IDefence.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="version_1._1.IMove" Collapsed="true">
-    <Position X="7.75" Y="4.5" Width="1.5" />
+  <Interface Name="TheSmartPenguin.IMovable">
+    <Position X="14.25" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IMove.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheSmartPenguin.Interfaces.IRender">
+    <Position X="16" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRender.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

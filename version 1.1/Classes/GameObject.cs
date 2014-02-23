@@ -3,19 +3,48 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace version_1._1
+namespace TheSmartPenguin
 {
     public abstract class GameObject
     {
-        private string name;
-
-
-
-        public GameObject(string name, int row, int coll)
+        public GameObject(string name, Coords position, char[,] shape)
         {
             this.Name = name;
-            this.Row = row;
-            this.Coll = coll;
+            this.Shape = shape;
+            this.Position = position;
+        }
+
+        private string name;
+        private Coords position;
+        private char[,] shape;
+
+
+        public char[,] Shape
+        {
+            get { return this.shape; }
+            set
+            {
+                if (null == value) throw new ArgumentNullException("The GameObject's shape can not be null!");
+                this.shape = value;
+            }
+        }
+        public Coords Position
+        {
+            get { return this.position; }
+            set
+            {
+                //int width = value.X + this.Shape.GetLength(0);
+                //int height = value.Y + this.Shape.GetLength(1);
+                //if (width <= WindowsSettings.GAME_AREA_WIDTH ||
+                //     height <= WindowsSettings.GAME_AREA_HEIGHT)
+                //    throw new ArgumentOutOfRangeException("The coordinates of the object are outside the area!");
+                this.position = value;
+            }
+        }
+        public string Name
+        {
+            get { return this.name; }
+            set { this.name = value; }
         }
 
         private int row;
@@ -54,10 +83,6 @@ namespace version_1._1
             }
         }
 
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
+
     }
 }
