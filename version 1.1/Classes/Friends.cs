@@ -7,8 +7,10 @@ namespace TheSmartPenguin
 {
     public abstract class Friends : MovingObject
     {
-        public Friends(string name,Coords position,Coords direction, char[,] shape)
-            : base(name,position,direction, shape)
-        { }
+        public Friends(string name, Coords position, Coords direction, char[,] shape)
+            : base(name, position, direction)
+        {
+            this.Shape = shape;
+        }
     }
 }

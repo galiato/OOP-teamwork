@@ -7,8 +7,10 @@ namespace TheSmartPenguin
 {
     public class Fish : StaticObject
     {
-        public Fish(string name, Coords position,char[,] shape)
-            : base(name, position,shape)
-        { }
+        public Fish(string name, Coords position)
+            : base(name, position)
+        {
+            this.Shape = new char[,] { { '%' } };
+        }
     }
 }

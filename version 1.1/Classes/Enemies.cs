@@ -38,8 +38,10 @@ namespace TheSmartPenguin
         //}
 
         public Enemies(string name, Coords position, Coords direction, char[,] shape)
-            : base(name, position, direction, shape)
-        { }
+            : base(name, position, direction)
+        {
+            this.Shape = shape;
+        }
 
         public int AttackPoints
         {

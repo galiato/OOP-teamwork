@@ -5,12 +5,11 @@ using System.Text;
 
 namespace TheSmartPenguin
 {
-    public abstract class GameObject
+    public abstract class GameObject : IRenderable
     {
-        public GameObject(string name, Coords position, char[,] shape)
+        public GameObject(string name, Coords position)
         {
             this.Name = name;
-            this.Shape = shape;
             this.Position = position;
         }
 

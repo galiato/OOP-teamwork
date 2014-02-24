@@ -17,7 +17,12 @@ namespace TheSmartPenguin
             StartMenu.Initialize();
 
             // INITIAL THE GAME
-            StartGame.Initialize();
+            //  StartGame.Initialize();
+            Terrain.Initialize();
+            InfoAreas.Initialize();
+            IRenderer renderer = new GameAreaRenderer();
+            Engine myEngine = new Engine(renderer);
+            myEngine.Run();
         }
     }
 }
