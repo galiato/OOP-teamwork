@@ -6,11 +6,8 @@
     using System.Text;
     using System.Threading.Tasks;
 
-    public static class Questions
+    public static class RandomNumber
     {
-
-
-        public static string question = "testov question ...";
-
+        public static Random generateNumber = new Random();
     }
 }
