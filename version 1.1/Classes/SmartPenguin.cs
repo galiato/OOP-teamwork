@@ -11,7 +11,13 @@ namespace TheSmartPenguin
         public SmartPenguin(string name, Coords position, Coords direction)
             : base(name, position, direction)
         {
-            this.Shape = new[,] { 
+            this.Shape = this.StaticShape;
+        }
+        public override char[,] StaticShape
+        {
+            get
+            {
+                return new[,] { 
             {' ',' ',' ',' ','_',' ',' ',' ',' ',' '},
             {' ',' ','.','\'',' ','\'','.',' ',' ',' '},
             {' ',' ','|','\'','V','\'','|',' ',' ',' '},
@@ -23,8 +29,8 @@ namespace TheSmartPenguin
             {' ',' ','/',' ','\\','/',' ','\\',' ',' '},
             {' ',' ','\'','`','\'','\'','`','\'',' ',' '}
             };
+            }
         }
-
         public int DefensePoints
         {
             get { return 100; }

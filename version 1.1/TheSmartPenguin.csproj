@@ -62,9 +62,11 @@
     <Compile Include="Classes\Fish.cs" />
     <Compile Include="Classes\Friends.cs" />
     <Compile Include="Classes\GameObject.cs" />
+    <Compile Include="Classes\IObjectOperator.cs" />
     <Compile Include="Classes\IRenderable.cs" />
     <Compile Include="Classes\IRenderer.cs" />
     <Compile Include="Classes\MovingObject.cs" />
+    <Compile Include="Classes\ObjectOperator.cs" />
     <Compile Include="Classes\Questions.cs" />
     <Compile Include="Classes\InfoAreas.cs" />
     <Compile Include="Classes\Scores.cs" />
