@@ -7,8 +7,8 @@ namespace TheSmartPenguin
 {
     public class Fish : StaticObject
     {
-        public Fish(string name, Coords position)
-            : base(name, position)
+        public Fish( Coords position)
+            : base( position)
         {
             this.Shape = new char[,] { { '%' } };
         }

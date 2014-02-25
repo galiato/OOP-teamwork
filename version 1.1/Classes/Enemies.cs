@@ -37,8 +37,8 @@ namespace TheSmartPenguin
         //    }
         //}
 
-        public Enemies(string name, Coords position, Coords direction, char[,] shape)
-            : base(name, position, direction)
+        public Enemies( Coords position, Coords direction, char[,] shape)
+            : base( position, direction)
         {
             this.Shape = shape;
         }

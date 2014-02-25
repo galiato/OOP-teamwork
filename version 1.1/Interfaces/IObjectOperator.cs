@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace TheSmartPenguin
 {
-    interface IObjectOperator
+    public interface IObjectOperator
     {
-        GameObject MainObjectsProducer(params string[] TypeNumber);
+        List<GameObject> MainObjectsProducer(params string[] TypeNumber);
     }
 }

@@ -21,7 +21,8 @@ namespace TheSmartPenguin
             Terrain.Initialize();
             InfoAreas.Initialize();
             IRenderer renderer = new GameAreaRenderer();
-            Engine myEngine = new Engine(renderer);
+            IObjectOperator objOperator = new ObjectOperator();
+            Engine myEngine = new Engine(renderer, objOperator);
             myEngine.Run();
         }
     }
