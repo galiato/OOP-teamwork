@@ -69,6 +69,7 @@
     <Compile Include="Classes\ObjectOperator.cs" />
     <Compile Include="Classes\Questions.cs" />
     <Compile Include="Classes\InfoAreas.cs" />
+    <Compile Include="Classes\Render.cs" />
     <Compile Include="Classes\Scores.cs" />
     <Compile Include="Classes\StartGame.cs" />
     <Compile Include="Classes\StartMenu.cs" />
