@@ -8,7 +8,7 @@ namespace TheSmartPenguin
 {
     public interface IRenderer
     {
-        void EnqueueForRendering();
+        void EnqueueForRendering(IRenderable obj);
         void RenderAll();
         void ClearQueue();
     }

@@ -74,6 +74,7 @@
     <Compile Include="Classes\StoreQuestion.cs" />
     <Compile Include="Classes\Terrain.cs" />
     <Compile Include="Classes\WindowsSettings.cs" />
+    <Compile Include="ConsoleRender.cs" />
     <Compile Include="Coords.cs" />
     <Compile Include="GameAreaRenderer.cs" />
     <Compile Include="Interfaces\IMove.cs" />
