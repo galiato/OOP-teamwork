@@ -58,10 +58,15 @@
   <ItemGroup>
     <Compile Include="Classes\DrawItem.cs" />
     <Compile Include="Classes\Enemies.cs" />
+    <Compile Include="Classes\Engine.cs" />
     <Compile Include="Classes\Fish.cs" />
     <Compile Include="Classes\Friends.cs" />
     <Compile Include="Classes\GameObject.cs" />
+    <Compile Include="Classes\IObjectOperator.cs" />
+    <Compile Include="Classes\IRenderable.cs" />
+    <Compile Include="Classes\IRenderer.cs" />
     <Compile Include="Classes\MovingObject.cs" />
+    <Compile Include="Classes\ObjectOperator.cs" />
     <Compile Include="Classes\Questions.cs" />
     <Compile Include="Classes\InfoAreas.cs" />
     <Compile Include="Classes\Scores.cs" />
@@ -70,6 +75,7 @@
     <Compile Include="Classes\Terrain.cs" />
     <Compile Include="Classes\WindowsSettings.cs" />
     <Compile Include="Coords.cs" />
+    <Compile Include="GameAreaRenderer.cs" />
     <Compile Include="Interfaces\IMove.cs" />
     <Compile Include="Interfaces\IAtack.cs" />
     <Compile Include="Interfaces\IDefence.cs" />

@@ -7,8 +7,8 @@ namespace TheSmartPenguin
 {
     public abstract class MovingObject : GameObject
     {
-        public MovingObject(string name, Coords position, Coords direction,char[,] shape)
-            : base(name, position, shape)
+        public MovingObject(string name, Coords position, Coords direction)
+            : base(name, position)
         {
             this.Direction = direction;
         }

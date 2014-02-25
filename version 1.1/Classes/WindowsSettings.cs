@@ -28,5 +28,6 @@ namespace TheSmartPenguin
             Console.ForegroundColor = WIN_TEXT;
             Console.CursorVisible = false;
         }
+
     }
 }

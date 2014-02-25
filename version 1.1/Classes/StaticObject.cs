@@ -7,8 +7,8 @@ namespace TheSmartPenguin
 {
     public abstract class StaticObject : GameObject
     {
-        public StaticObject(string name, Coords position,char[,] shape)
-            : base(name, position,shape)
+        public StaticObject(string name, Coords position)
+            : base(name, position)
         { }
     }
 }
