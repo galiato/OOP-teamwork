@@ -12,13 +12,16 @@
         public static string GetQuestion()
         {
             number = RandomNumber.generateNumber.Next(0, StoreQuestion.count);
+            string newQuestion = StoreQuestion.getquestion[number].ToString();
+            StoreQuestion.getquestion.Remove(StoreQuestion.getquestion[number]);
+            StoreQuestion.count--;
 
-            return StoreQuestion.getquestion[number].ToString();
+            return newQuestion;
         }
 
-        public static bool CheckQuestion(string value)
+        public static bool CheckQuestion(char value)
         {
-            if (value == StoreQuestion.answer[StoreQuestion.count])
+            if (value.ToString() == StoreQuestion.answer[StoreQuestion.count])
             {
                 return true;
             }
