@@ -49,6 +49,11 @@ namespace TheSmartPenguin
             //Generate random count of enemies and friends at random positions
             //Print them all on the game area
             //Load first question
+
+            //Question.GetQuestion();
+            //char answer = char.Parse(Console.ReadLine());
+            //Question.CheckQuestion(answer); //Връща bool
+
             //Enter the game loop
             while (command != "exit")
             {
