@@ -29,7 +29,7 @@
             {
                 DrawItem.Draw(col, WindowsSettings.INFO_AREA_HEIGHT-3,  SYMBOL_QUESTION_AREA);
             }
-            DrawItem.Draw(1,  WindowsSettings.INFO_AREA_HEIGHT-2, "Please answer the question: " + Questions.question);
+          //  DrawItem.Draw(1,  WindowsSettings.INFO_AREA_HEIGHT-2, "Please answer the question: " + Questions.question);
         }
     }
 }

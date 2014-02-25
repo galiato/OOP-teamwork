@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TheSmartPenguin
 {
-    interface IRenderable
+    public interface IRenderable
     {
         Coords Position { get; set; }
         char[,] Shape { get; set; }

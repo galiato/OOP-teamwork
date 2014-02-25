@@ -1,9 +1,9 @@
-﻿namespace version_1._1
+﻿namespace TheSmartPenguin
 {
     using System;
     using System.Text;
     using TheSmartPenguin;
-    class ConsoleRender : IRenderer
+    public class ConsoleRender : IRenderer
     {
         int renderContextMatrixRows;
         int renderContextMatrixCols;

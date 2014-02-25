@@ -77,11 +77,11 @@
     <Compile Include="Classes\WindowsSettings.cs" />
     <Compile Include="ConsoleRender.cs" />
     <Compile Include="Coords.cs" />
-    <Compile Include="GameAreaRenderer.cs" />
     <Compile Include="Interfaces\IMove.cs" />
     <Compile Include="Interfaces\IAtack.cs" />
     <Compile Include="Interfaces\IDefence.cs" />
     <Compile Include="Interfaces\IRender.cs" />
+    <Compile Include="ObjectOperator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\SmartPenguin.cs" />
