@@ -8,6 +8,6 @@ namespace TheSmartPenguin
 {
     interface IObjectOperator
     {
-        GameObject ObjectProducer(params string[] TypeNumber);
+        GameObject MainObjectsProducer(params string[] TypeNumber);
     }
 }

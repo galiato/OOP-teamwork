@@ -6,33 +6,35 @@ using System.Threading.Tasks;
 
 namespace TheSmartPenguin
 {
-    class ObjectOperator : IObjectOperator
-    {
-        public GameObject ObjectProducer(params string[] TypeNumber)
-        {
-            GameObject obj;
-            for (int i = 0; i < TypeNumber.Length; i++)
-            {
-                int number = int.Parse(TypeNumber[i]);
-                string type = TypeNumber[i + 1];
+    //class ObjectOperator : IObjectOperator
+    //{
+    //    //public GameObject MainObjectsProducer(params string[] TypeNumber)
+    //    //{
+    //    //    GameObject obj;
+    //    //    for (int i = 0; i < TypeNumber.Length; i++)
+    //    //    {
+    //    //        int number = int.Parse(TypeNumber[i]);
+    //    //        string type = TypeNumber[i + 1];
 
-                switch (type)
-                {
-                    case "Fish":
+    //    //        switch (type)
+    //    //        {
+    //    //            case "Fish":
 
-                    case "SmartPenguin":
-                        
-                        break;
+    //    //                break;
+    //    //            case "SmartPenguin":
 
-
-                    default:
-                        break;
-                }
-
-            }
-            return obj;
-        }
+    //    //                break;
 
 
-    }
+    //    //            default:
+    //    //                break;
+    //    //        }
+
+    //    //    }
+    //    //    return obj;
+    //    //}
+        
+
+
+    //}
 }

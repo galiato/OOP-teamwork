@@ -16,15 +16,16 @@ namespace TheSmartPenguin
         private string name;
         private Coords position;
         private char[,] shape;
-        public virtual char[,] StaticShape { get; }
-
 
         public char[,] Shape
         {
             get { return this.shape; }
             set
             {
-                if (null == value) throw new ArgumentNullException("The GameObject's shape can not be null!");
+                if (value == null)
+                {
+                    throw new ArgumentNullException("The GameObject's shape can not be null!");
+                }
                 this.shape = value;
             }
         }
