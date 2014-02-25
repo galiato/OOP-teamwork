@@ -16,6 +16,7 @@ namespace TheSmartPenguin
         private string name;
         private Coords position;
         private char[,] shape;
+        public virtual char[,] StaticShape { get; }
 
 
         public char[,] Shape
