@@ -1,0 +1,135 @@
+Which three parts form HDD (Hard Disk Drive)?
+a) Platter, Head, USB connector
+b) Head, Actuator, Platter
+c) Jumper Block, Platter, HDMI connector
+c
+Which one of the following programming languages is object-oriented?
+a) Pascal
+b) Smalltalk
+c) C
+b
+What are these terms used for: AIDA 64, CPU Burn-in, CPU-Z, Memtest?
+a) Hardware diagnostics
+b) Graphical Design
+c) Game engine
+a
+Which one of the following operating systems is NOT Linux-based?
+a) Android
+b) RISC OS
+c) Ubuntu
+b
+Which one of the software development models is based on Agile methodology?
+a) Waterfall
+b) Spiral
+c) Scrum
+c
+Which text encoding represents the most symbols?
+a) UTF-16
+b) ASCII
+c) CP-1251
+a
+Which one from the following commands is not a part of the Data Manipulation Language in SQL?
+a) DELETE
+b) INSERT
+c) SELECT
+b
+What do we test in “unit testing”?
+a) The complete  hardware functioning
+b) The functioning of a certain device
+c) An individual unit of source code
+c
+What means „phishing“?
+a) Breaking trough the firewall
+b) Going to fishing
+c) Attempt to acquire information for your personal data
+c
+Witch one of the following is NOT a real time video mixing application?
+a) MODUL8
+b) VLC
+c) Resolume
+b
+Based on which information the switches made their switching decision?
+a) Source MAC address
+b) Destination MAC address
+c) Source IP address
+a
+Which of the listed is not a social networking website?
+a) LinkedIn
+b) Hello5
+c) Flickr
+b
+Which of the following is not a web browser?
+a) Symphony
+b) Safari
+c) Maxthon 3.0
+a
+Which of the following is a block-level element?
+a) footer
+b) br
+c) a
+a
+Which of the following processor architectures is designed by RISC instructions?
+a) Itanium
+b) Motorola 68k
+c) ARM
+c
+In which of the following cases a stress test is not necessary?
+a) optical drive change
+b) VGA change
+c) hardware overclock
+a
+The sum of the binary numbers 111010 and 110011, converted to hexadecimal is?
+a) F6H1
+b) 6D
+c) 1101101
+b
+In an OS each process has it’s own…?
+a) address and global variables
+b) open files 
+c) all of the above
+c
+Which of the listed methods is not common for Agile methodology?
+a) low criticality
+b) requirements do not change often
+c) small number of developers
+b
+For what kind of images is more suitable JPEG compression?
+a) images of landscapes and scenery
+b) images with a lot of text
+c) image that will undergo lot of editing
+a
+Rich Text Format (RTF) does NOT support?
+a) images
+b) annotations
+c) macros
+c
+What is build of any raster graphic?
+a) from points with different colors 
+b) system equations
+c) colors and figurations
+a
+The purpose of the commentaries in PowerPoint is to be used for…?
+a) the audience of the presentation
+b) the members of the team preparing the presentation
+c) In PowerPoint there are no commentaries
+b
+What is the maximum bitrate speed of the audio format – MP3?
+a) 320 kbps
+b) 128 kbps
+c) 256 kbps
+a
+Which of the following protocols is not part of the application layer of the OSI model?
+a) Telnet
+b) SSL
+c) DNS
+b
+Which of the given web servers is shareware licensed (not open source)?
+a) Apache
+b) Cherokee
+c) IIS
+c
+Which of the answers is correct Javascript syntax for the program "Hello World"?
+a) WriteLine("Hello World");
+b) document.write("Hello World");
+c) echo "Hello World";
+b
