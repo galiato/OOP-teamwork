@@ -9,8 +9,8 @@
 
     public  class StoreQuestion : IQuestionManager
     {
-        public  List<StringBuilder> getquestion = new List<StringBuilder>();
-        public  List<string> answer = new List<string>();
+        public  static List<StringBuilder> getquestion = new List<StringBuilder>();
+        public  static List<string> answer = new List<string>();
         public  int count = 0;
         public  void Storage()
         {
@@ -42,11 +42,12 @@
         public void PrintQuestion(IQuestion question)
         {
            // throw new NotImplementedException();
+            Console.WriteLine(Question.newQuestion);
         }
 
         public string InputForRightAnswer
         {
-            get { throw new NotImplementedException(); }
+            get { return answer[Question.number]; }
         }
     }
 }

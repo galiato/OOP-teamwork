@@ -8,35 +8,33 @@
 
     public  class Question :IQuestion //в началото на Main метода да има StoreQuestion.Storage(); за да може да вкара въпросите в памета.
     {
-        private static int number;
-        public static string GetQuestion()
+        public static int number;
+        public static string newQuestion;
+        public Question()
         {
             StoreQuestion storeQuestion = new StoreQuestion();
             number = RandomNumber.generateNumber.Next(0, storeQuestion.count);
-            string newQuestion = storeQuestion.getquestion[number].ToString();
-            storeQuestion.getquestion.Remove(storeQuestion.getquestion[number]);
+            newQuestion = StoreQuestion.getquestion[number].ToString();
+            StoreQuestion.getquestion.Remove(StoreQuestion.getquestion[number]);
             storeQuestion.count--;
-
-            return newQuestion;
         }
 
-        public static bool CheckQuestion(char value)
-        {
-            StoreQuestion storeQuestion = new StoreQuestion();
-            if (value.ToString() == storeQuestion.answer[storeQuestion.count])
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-
+        //public static bool CheckQuestion(char value)
+        //{
+        //    StoreQuestion storeQuestion = new StoreQuestion();
+        //    if (value.ToString() == storeQuestion.answer[storeQuestion.count])
+        //    {
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        return false;
+        //    }
+        //}
 
         public string InputForRightAnswer
         {
-            get { throw new NotImplementedException(); }
+            get { return StoreQuestion.answer[Question.number]; }
         }
     }
 }
