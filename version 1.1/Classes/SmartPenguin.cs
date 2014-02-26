@@ -24,25 +24,40 @@ namespace TheSmartPenguin
             {' ',' ','/',' ','\\','/',' ','\\',' ',' '},
             {' ',' ','\'','`','\'','\'','`','\'',' ',' '}
             };
+            this.Enemies = new List<Enemy>();
         }
         private string name;
+        private List<Enemy> enemies;
+
+        public List<Enemy> Enemies
+        {
+            get { return this.enemies; }
+            set
+            {
+                if (null == value) throw new ArgumentNullException("Enemies can not be null");
+                this.enemies = value;
+            }
+        }
 
         public string Name
         {
             get { return this.name; }
-            set {
+            set
+            {
                 if (value == null) throw new ArgumentNullException("Name can not be null!");
-                this.name = value; }
+                this.name = value;
+            }
         }
         public int DefensePoints
         {
             get { return 100; }
         }
 
-        public void Print()
+        public override void Update()
         {
-
+            this.Position += this.Direction;
         }
+
 
 
     }

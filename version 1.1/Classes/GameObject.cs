@@ -35,6 +35,10 @@ namespace TheSmartPenguin
                 this.position = value;
             }
         }
+        public virtual void Update()
+        {
+
+        }
        
 
     }

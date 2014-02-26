@@ -20,9 +20,12 @@ namespace TheSmartPenguin
             //  StartGame.Initialize();
             Terrain.Initialize();
             InfoAreas.Initialize();
+
             IRenderer renderer = new ConsoleRender(120,50);
             IObjectOperator objOperator = new ObjectOperator();
-            Engine myEngine = new Engine(renderer, objOperator);
+            IQuestionManager questionManager = new StoreQuestion();
+            Engine myEngine = new Engine(renderer, objOperator, questionManager);
+            myEngine.Initialize();
             myEngine.Run();
         }
     }

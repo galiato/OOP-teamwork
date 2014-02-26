@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TheSmartPenguin
 {
-    public class Enemies : MovingObject, IAtack
+    public class Enemy : MovingObject, IAtack
     {
         //public static readonly string[] PLAYER_SYMBOL = new string[] {
         //    "     00  ",
@@ -37,7 +37,7 @@ namespace TheSmartPenguin
         //    }
         //}
 
-        public Enemies( Coords position, Coords direction, char[,] shape)
+        public Enemy( Coords position, Coords direction, char[,] shape)
             : base( position, direction)
         {
             this.Shape = shape;

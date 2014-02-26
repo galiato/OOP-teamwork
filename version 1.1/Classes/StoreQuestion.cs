@@ -7,12 +7,12 @@
     using System.Threading.Tasks;
     using System.IO;
 
-    public static class StoreQuestion
+    public  class StoreQuestion : IQuestionManager
     {
-        public static List<StringBuilder> getquestion = new List<StringBuilder>();
-        public static List<string> answer = new List<string>();
-        public static int count = 0;
-        public static void Storage()
+        public  List<StringBuilder> getquestion = new List<StringBuilder>();
+        public  List<string> answer = new List<string>();
+        public  int count = 0;
+        public  void Storage()
         {
             var lineCount = (File.ReadAllLines(@"Questions.txt").Length) / 5; //Трябва да се даде път до .txt файла
 
@@ -32,5 +32,21 @@
             }
         }
 
+
+        public IQuestion GetQuestion()
+        {
+            //throw new NotImplementedException();
+            return new Question();
+        }
+
+        public void PrintQuestion(IQuestion question)
+        {
+           // throw new NotImplementedException();
+        }
+
+        public string InputForRightAnswer
+        {
+            get { throw new NotImplementedException(); }
+        }
     }
 }
